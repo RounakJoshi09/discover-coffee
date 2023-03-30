@@ -27,7 +27,7 @@
     margin-top: 0.75rem;
     font-size: 1.5rem /* 24px */;
     line-height: 2rem /* 32px */;
-  
+    font-weight: 500;
     color: var(--text-white-100);
   }
   
