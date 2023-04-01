@@ -24,8 +24,10 @@ export default function Home() {
       <div className={styles.heroImage}>
       <Image alt="hero image" src ="/static/hero-image.png" width={700} height={400}></Image>;
       </div>
-      <div>
-        <Card name="Black Friday" target="/coffee-store/black-friday-shop" />
+      <div className={styles.cardLayout}>
+        <Card className={styles.card} name="Black Friday" target="/coffee-store/black-friday-shop" />
+        <Card className={styles.card} name="Black Friday" target="/coffee-store/black-friday-shop" />
+        <Card className={styles.card} name="Black Friday" target="/coffee-store/black-friday-shop" />
       </div>
       </main>
       <footer className={styles.footer}></footer>

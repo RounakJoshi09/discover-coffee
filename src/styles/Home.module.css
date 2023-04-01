@@ -19,6 +19,14 @@
   object-fit: cover;
 }
 
+.cardLayout{
+  display: grid;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  justify-content: center;
+}
+
 /** Breakpoints:
   sm: min-width: 640px;
   md: min-width: 768px;
@@ -28,6 +36,9 @@
 **/
 
 @media (min-width: 640px) {
+  .cardLayout{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
   .container {
     padding-left: 1rem /* 16px */;
     padding-right: 1rem /* 16px */;
@@ -41,6 +52,9 @@
 }
 
 @media (min-width: 768px) {
+  .cardLayout{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
   .container {
     padding-left: 2.5rem /* 40px */;
     padding-right: 2.5rem /* 40px */;
@@ -56,6 +70,9 @@
 }
 
 @media (min-width: 1024px) {
+  .cardLayout{
+    grid-template-columns: repeat(3,minmax(0,1fr));
+  }
   .container {
     padding-left: 2.5rem /* 40px */;
     padding-right: 2.5rem /* 40px */;
@@ -71,6 +88,9 @@
 }
 
 @media (min-width: 1280px) {
+  .cardLayout{
+    grid-template-columns: repeat(3,minmax(0,1fr));
+  }
   .main {
     margin-top: 7rem /* 112px */;
   }
