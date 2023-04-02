@@ -1,0 +1,80 @@
+.mainContainer{
+    position:absolute;
+    top: 20%;
+    left: 20%;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+
+}
+.title{
+
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: var(--text-white-100);
+}
+.coffeeStoreContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-overflow: ellipsis
+
+}
+.titleWrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.coffeeInfoBox{
+    height: 180px;
+    width: 360px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imageWrapper{
+    padding:  2rem 4rem;
+}
+.storeImage{
+    border-radius: 20px;
+}
+.addressWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0.5rem 1rem;
+    gap: 12px;
+    height: 33%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.addressText{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-purple-dark);
+    line-height: 2rem;
+}
+.ratingWrapper{
+    display: flex;
+    flex-direction: row;
+    padding:0.5rem 1rem;
+    align-items: center;
+    gap: 12px;
+    height: 33%;
+    text-overflow: ellipsis;
+    overflow: hidden;    
+
+}
+.ratingText{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-purple-dark);
+    line-height: 2rem;
+}
+
+
+.upVoteButton{
+    padding: 1rem;
+}

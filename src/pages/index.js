@@ -12,7 +12,6 @@ export async function getStaticProps(context) {
     props: {coffeeStores},
   }
 }
-
 export default function Home(props) {
   const handleBannerButtonClick = () =>{
     console.log("Hello Banner Buttoon");
