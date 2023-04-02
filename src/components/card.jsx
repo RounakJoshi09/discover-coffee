@@ -12,7 +12,7 @@ function Card(props) {
                     </h2>
                     </div>
                    
-                    <Image className={styles.storeImage} alt='coffee-store-image' src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=600" height={160} width={260}/>
+                    <Image className={styles.storeImage} alt='coffee-store-image' src={props.imageUrl} height={160} width={260}/>
                    
                
         </Link>
