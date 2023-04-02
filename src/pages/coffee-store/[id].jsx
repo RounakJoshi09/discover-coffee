@@ -61,12 +61,12 @@ const CoffeeStore = (props) => {
                         <div className={styles.addressWrapper}>
                         <Image src="/icons/location.png" width={32} height={32} alt='star icon'></Image>
                             <div className={styles.addressText}>{address}</div>
-                        </div>
+                        </div>  
                         <div className={styles.ratingWrapper}>
                             <Image src="/icons/star.png" width={32} height={32} alt='star icon'></Image>
                             <div className={styles.ratingText}>{rating}</div>
                         </div>
-                        <div className={styles.upVoteButton}>upVoteButton</div>
+                        <div className={styles.upVoteButton}>Up Vote</div>
                     </div>
                 </div>
             </div>

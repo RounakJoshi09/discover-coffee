@@ -23,6 +23,7 @@
 }
 .titleWrapper{
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 .coffeeInfoBox{
@@ -32,6 +33,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center ;
+    
 }
 .imageWrapper{
     padding:  2rem 4rem;
@@ -56,6 +59,7 @@
     line-height: 2rem;
 }
 .ratingWrapper{
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding:0.5rem 1rem;
@@ -76,5 +80,17 @@
 
 
 .upVoteButton{
-    padding: 1rem;
+    background-color: var(--text-purple-dark);
+    cursor: pointer;
+    color: white;
+    outline: 0;
+    border: 1px solid white;
+    width: 50% ;
+    text-align: center;
+    padding-top: 1rem /* 16px */;
+    padding-bottom: 1rem /* 16px */;
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    padding-left: 2.5rem /* 40px */;
+    padding-right: 2.5rem /* 40px */;
 }
